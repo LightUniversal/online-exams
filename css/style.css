@@ -23,7 +23,7 @@ div.container header {
     position: relative;
     padding: 1%;
     background-color: rgba(236, 236, 236, 0.2);
-    background-color: indigo;
+    background-color: rgb(59, 16, 25);
 
 }
 
@@ -54,9 +54,9 @@ div.container header div.right-side {
     top: 20px;
 }
 div.container header div.right-side button {
-    background-color: transparent;
+    background-color: orange;
     padding: 10px 15px;
-    border: thin solid rgba(255, 255, 255, 0.2);
+    border: thin solid rgba(255, 255, 255, 0.7);
     font-weight: 600;
     font-family: "Poppins";
     letter-spacing: 0.41px;
@@ -323,6 +323,9 @@ main div.main-des section form input[value="Submit"] {
         margin-bottom: 2px;
         position: relative;
     }
+    div.container header {
+        position: relative;
+    }
     div.container header h3 {
         padding-top: 10px;
         text-transform: none;
@@ -330,29 +333,52 @@ main div.main-des section form input[value="Submit"] {
     div.container header nav ol {
         position: absolute;
         right: 4%;
-        top: 40px;
+        top: 30px;
+        border-bottom: thin solid gray;
     }
     div.container header nav ol li {
         margin: 3px;
     }
     div.container header nav ul li i {
-        color:rgb(179, 255, 0);
+        color:orange;
     }
     div.container header nav  ul li {
         display: block;
+        border-bottom:  thin solid gray;
         margin: 25px 0;
     }
     div.container header div.right-side {
         right:7%;
-        top: 27px;
+        top: 20px;
     }
     div.container header div.right-side button{
-        padding: 5px 10px;
+        padding: 10px 10px;
+        border: thin solid rgba(230, 223, 223,0.2);
+        box-shadow: 0px;
     }
     div.container header form {
         padding: 0.5%;
+        position: absolute;
+        bottom: 30px;
+        right: 1%;
+        width: 100%;
     }
     div.container header form input[type="search"] {
-        width:75%;
+        width:25%;
+        margin: 5px 10px 5px 1px;
+        font-family: "Poppins";
+        font-weight: 600;
+        float: right;
+        border: thin solid #fff;
+    }
+    div.container header form input + button i {
+        color: #fff;
+    }
+    div.container header form input + button {
+        border: thin solid rgba(255, 255, 255,0.2);
+        float: right;
+        margin: 5px;
+        color: #fff;
+        background-color: orange;
     }
 }
