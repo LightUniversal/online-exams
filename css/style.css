@@ -32,7 +32,7 @@ div.container header h3 {
     text-transform: lowercase;
     letter-spacing: 1px;
     text-shadow: 0.1px 0.1px 0.1px rgba(0, 20, 40, 0.2);
-    color:#fff;
+    color: #fff;
     padding-left: 5%;
     /* background-color: orchid; */
     font-size: 34px;
@@ -53,6 +53,7 @@ div.container header div.right-side {
     right: 5.5%;
     top: 20px;
 }
+
 div.container header div.right-side button {
     background-color: orange;
     padding: 10px 15px;
@@ -64,7 +65,7 @@ div.container header div.right-side button {
     cursor: pointer;
     outline: none;
     border-radius: 3px;
-    box-shadow: 0.1px 0.1px 0.1px inset rgba(250, 246, 246,0.1);
+    box-shadow: 0.1px 0.1px 0.1px inset rgba(250, 246, 246, 0.1);
 }
 
 div.container header div.right-side button i {
@@ -88,9 +89,11 @@ div.container header nav ul {
     /* background-color: red; */
     margin-left: 20px;
 }
+
 div.container header nav ol {
     margin-right: 20px;
 }
+
 div.container header nav ul li,
 div.container header nav ol li {
     display: inline-block;
@@ -292,99 +295,258 @@ main div.main-des section label {
 
 main div.main-des section form {
     border: none;
-    padding:0;
+    padding: 0;
     width: 100%;
 }
+
 main div.main-des section form input[value="Start"] {
     background-color: green;
     font-weight: 600;
     outline: none;
-    color:#fff;
+    color: #fff;
     font-size: 17px;
     margin-top: -20px;
 }
+
 main div.main-des section form input[value="Submit"] {
     background-color: rgb(255, 47, 47);
     color: #fff;
     font-weight: 600;
     margin-top: -20px;
-    
+
     outline: none;
     font-size: 17px;
     float: right;
     margin-left: 1%;
 }
+
 @media only screen and (max-width: 750px) {
     div.container header nav {
-        border-top: thin solid rgba(255, 255, 255, 0.1);
-        border-left:thin solid rgba(255, 255, 255, 0.1);
-        border:thin solid rgba(246, 248, 250, 0.1);
-        margin-top:30px;
+        border-top: thin dashed rgba(255, 255, 255, 0.3);
+        border-left: thin dashed rgba(255, 255, 255, 0.3);
+        border: thin dashed rgba(246, 248, 250, 0.3);
+        margin-top: 30px;
         margin-bottom: 2px;
         position: relative;
     }
+
     div.container header {
         position: relative;
     }
+
     div.container header h3 {
         padding-top: 10px;
         font-size: 25px;
         letter-spacing: 1.5px;
         text-transform: none;
+        margin-bottom: -20px;
     }
+
     div.container header nav ol {
         position: absolute;
         right: 4%;
-        top: 30px;
-        border-bottom: thin solid gray;
+        bottom: 40px;
+        border-bottom: thin dashed rgba(255, 255, 255, 0.1);
+        border-bottom: thin dashed rgba(255, 255, 255, 0.3);
+
     }
+
+    div.container header nav ol li a {
+        color: orange;
+    }
+
     div.container header nav ol li {
         margin: 3px;
     }
+
     div.container header nav ul li i {
-        color:orange;
+        color: orange;
     }
-    div.container header nav  ul li {
+
+    div.container header nav ul li {
         display: block;
-        border-bottom:  thin solid gray;
+        border-bottom: thin dashed rgba(255, 255, 255, 0.3);
         margin: 25px 0;
     }
+
     div.container header div.right-side {
-        right:7%;
+        right: 7%;
         top: 15px;
     }
-    div.container header div.right-side button{
+
+    div.container header div.right-side button {
         padding: 7px 10px;
-        border: none solid rgba(230, 223, 223,0.2);
+        border: none solid rgba(230, 223, 223, 0.2);
         background-color: rgba(255, 165, 0, 0.2);
-        border:none;
+        border: none;
         box-shadow: 0px;
     }
-    div.container header form {
-        padding: 0.5%;
-        position: absolute;
-        bottom: 30px;
-        right: 1%;
+
+    main div.main-des article.plug-des {
+        text-align: center;
+        padding: 2%;
+        font-family: "Zilla Slab";
+
+    }
+
+    main div.main-des article.plug-des h2 {
+        font-size: 30px;
+        color: black;
+        /* text-decoration: underline; */
+        font-family: "Mate Sc";
+        text-transform: lowercase;
+    }
+    main div.main-des article.plug-des h2 i {
+        color: orange;
+    }
+    main div.main-des article.plug-des p {
+        margin-top: 10px;
+        color: black;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        letter-spacing: 0.51px;
+    }
+
+    main div.main-des article.plug-des p i {
+        font-size: 30px;
+    }
+
+    main div.main-des article.main-des-info {
+        text-align: center;
+        padding: 4%;
+        background-color: rgb(59, 16, 25);
+    }
+
+    main div.main-des article.main-des-info h3 {
+        color: #fff;
+        font-size: 30px;
+    }
+
+    main div.main-des article.main-des-info p {
+        color: #fff;
+        text-shadow: 0px 0px 0px none;
+        font-weight: 300;
+        line-height: 40px;
+    }
+
+    main div.main-des form {
+        width: 100%;
+        margin-top: 50px;
+        padding-bottom: 10px;
+        padding: 10px;
+        border-bottom: thin solid rgba(10, 20, 30, 0.1);
+    }
+
+    main div.main-des form h3 {
+        font-family: "Poppins", sans-serif;
+    }
+
+    main div.main-des form input {
+        width: 48%;
+        padding: 2%;
+        border: thin solid rgba(113, 116, 119, 0.3);
+        border-radius: 3px;
+        margin: 1% 0;
+        font-weight: 600;
+        letter-spacing: 1px;
+        font-family: "Poppins", sans-serif;
+    }
+
+    main div.main-des form button {
+        display: block;
+        cursor: pointer;
+        transition-property: transform;
+        transition-duration: 350ms;
+        background-color: transparent;
+        border: thin solid rgba(0, 20, 40, 0.2);
+        padding: 2%;
+        border-radius: 3px;
+        letter-spacing: 1px;
+        font-weight: 600;
+        text-transform: uppercase;
+        font-family: "Poppins";
+    }
+
+    main div.main-des form input#lname {
+        float: right;
+        margin-left: 1%;
+    }
+
+    main div.main-des section {
+        margin-top: 10px;
+        padding: 10px;
+        position: relative;
+    }
+
+    main div.main-des section span i {
+        font-size: 40px;
+        display: inline-block;
+        margin-right: 1px;
+        vertical-align: middle;
+    }
+
+    main div.main-des section span {
+        text-transform: uppercase;
+        font-weight: 600;
+        display: block;
+        font-family: "Poppins";
+        text-shadow: 0.2px 0.2px 0.1px rgb(250, 242, 242);
+        padding-left: 2%;
+        margin-top: -5px;
+        margin-bottom: 10px;
+        letter-spacing: 1px;
+    }
+
+    main div.main-des section select {
+        font-family: "Poppins";
+        padding: 10px;
+        background-color: transparent;
+        box-shadow: 0.2px 0.1px 0.2px gray;
+        border: thin solid rgba(10, 20, 30, 0.1);
+        border-radius: 4px;
+        font-weight: 600;
+        outline: none;
+        letter-spacing: 1px;
+        font-size: 17px;
+    }
+
+    main div.main-des section select option {
+        font-weight: bold;
+        outline: none;
+    }
+
+    main div.main-des section label {
+        font-weight: bold;
+        letter-spacing: 1px;
+        text-shadow: 0.1px 0.1px 0.1px rgba(128, 128, 128, 0.2);
+        font-family: "Poppins";
+    }
+
+    main div.main-des section form {
+        border: none;
+        padding: 0;
         width: 100%;
     }
-    div.container header form input[type="search"] {
-        width:25%;
-        margin: 5px 10px 5px 1px;
-        font-family: "Poppins";
-        height: 30px;
+
+    main div.main-des section form input[value="Start"] {
+        background-color: green;
         font-weight: 600;
-        float: right;
-        border: thin solid #fff;
-    }
-    div.container header form input + button i {
-        color:#fff;
-    }
-    div.container header form input + button {
-        border: thin solid rgba(255, 255, 255,0.2);
-        float: right;
-        height: 30px;
-        margin: 5px;
+        outline: none;
         color: #fff;
-        background-color: rgba(255, 165, 0, 0.2);
+        font-size: 17px;
+        margin-top: -20px;
+    }
+
+    main div.main-des section form input[value="Submit"] {
+        background-color: rgb(255, 47, 47);
+        color: #fff;
+        font-weight: 600;
+        margin-top: -20px;
+
+        outline: none;
+        font-size: 17px;
+        float: right;
+        margin-left: 1%;
     }
 }
