@@ -64,7 +64,7 @@ div.container header div.right-side button {
     cursor: pointer;
     outline: none;
     border-radius: 3px;
-    box-shadow: 0.1px 0.1px 0.1px inset rgb(250, 246, 246);
+    box-shadow: 0.1px 0.1px 0.1px inset rgba(250, 246, 246,0.1);
 }
 
 div.container header div.right-side button i {
@@ -328,6 +328,8 @@ main div.main-des section form input[value="Submit"] {
     }
     div.container header h3 {
         padding-top: 10px;
+        font-size: 25px;
+        letter-spacing: 1.5px;
         text-transform: none;
     }
     div.container header nav ol {
@@ -349,11 +351,13 @@ main div.main-des section form input[value="Submit"] {
     }
     div.container header div.right-side {
         right:7%;
-        top: 20px;
+        top: 15px;
     }
     div.container header div.right-side button{
-        padding: 10px 10px;
-        border: thin solid rgba(230, 223, 223,0.2);
+        padding: 7px 10px;
+        border: none solid rgba(230, 223, 223,0.2);
+        background-color: rgba(255, 165, 0, 0.2);
+        border:none;
         box-shadow: 0px;
     }
     div.container header form {
@@ -367,6 +371,7 @@ main div.main-des section form input[value="Submit"] {
         width:25%;
         margin: 5px 10px 5px 1px;
         font-family: "Poppins";
+        height: 30px;
         font-weight: 600;
         float: right;
         border: thin solid #fff;
@@ -377,8 +382,9 @@ main div.main-des section form input[value="Submit"] {
     div.container header form input + button {
         border: thin solid rgba(255, 255, 255,0.2);
         float: right;
+        height: 30px;
         margin: 5px;
         color: #fff;
-        background-color: orange;
+        background-color: rgba(255, 165, 0, 0.2);
     }
 }
