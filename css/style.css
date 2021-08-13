@@ -398,6 +398,7 @@ main div.main-des section form input[value="Submit"] {
     }
     main div.main-des article.plug-des h2 i {
         color: orange;
+        font-size: 20px;
     }
     main div.main-des article.plug-des p {
         margin-top: 10px;
