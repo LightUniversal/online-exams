@@ -23,6 +23,8 @@ div.container header {
     position: relative;
     padding: 1%;
     background-color: rgba(236, 236, 236, 0.2);
+    background-color: indigo;
+
 }
 
 div.container header h3 {
@@ -30,17 +32,18 @@ div.container header h3 {
     text-transform: lowercase;
     letter-spacing: 1px;
     text-shadow: 0.1px 0.1px 0.1px rgba(0, 20, 40, 0.2);
+    color:#fff;
     padding-left: 5%;
     /* background-color: orchid; */
     font-size: 34px;
 }
 
 div.container header h3:first-letter {
-    color: rgb(255, 0, 21);
+    color: rgb(248, 241, 242);
 }
 
 div.container header h3 i {
-    color: rgb(255, 0, 0);
+    color: rgb(228, 231, 10);
     vertical-align: middle;
     font-size: 20px;
 }
@@ -53,19 +56,19 @@ div.container header div.right-side {
 div.container header div.right-side button {
     background-color: transparent;
     padding: 10px 15px;
-    border: thin solid rgba(0, 23, 89, 0.2);
+    border: thin solid rgba(255, 255, 255, 0.2);
     font-weight: 600;
     font-family: "Poppins";
     letter-spacing: 0.41px;
-    color: rgb(21, 16, 48);
+    color: rgb(255, 255, 255);
     cursor: pointer;
     outline: none;
     border-radius: 3px;
-    box-shadow: 0.1px 0.1px 0.1px inset gray;
+    box-shadow: 0.1px 0.1px 0.1px inset rgb(250, 246, 246);
 }
 
 div.container header div.right-side button i {
-    color: blue;
+    color: rgb(255, 255, 255);
 }
 
 div.container header nav {
@@ -100,7 +103,7 @@ div.container header nav a {
     letter-spacing: 1px;
     font-weight: 600;
     text-shadow: 0.1px 0.1px 0.1px rgba(44, 34, 88, 0.1);
-    color: blue;
+    color: rgb(255, 255, 255);
 }
 
 div.container header form {
@@ -313,9 +316,9 @@ main div.main-des section form input[value="Submit"] {
 }
 @media only screen and (max-width: 750px) {
     div.container header nav {
-        border-top: thin solid rgba(105, 110, 114, 0.1);
-        border-left:thin solid rgba(105, 110, 114, 0.1);
-        border-bottom:thin solid rgba(105, 110, 114, 0.1);
+        border-top: thin solid rgba(255, 255, 255, 0.1);
+        border-left:thin solid rgba(255, 255, 255, 0.1);
+        border:thin solid rgba(246, 248, 250, 0.1);
         margin-top:30px;
         margin-bottom: 2px;
         position: relative;
@@ -326,11 +329,14 @@ main div.main-des section form input[value="Submit"] {
     }
     div.container header nav ol {
         position: absolute;
-        right: 5%;
-        top: 90px;
+        right: 4%;
+        top: 40px;
     }
     div.container header nav ol li {
         margin: 3px;
+    }
+    div.container header nav ul li i {
+        color:rgb(179, 255, 0);
     }
     div.container header nav  ul li {
         display: block;
