@@ -377,7 +377,7 @@ main div.main-des section form input[value="Submit"] {
         border: thin solid #fff;
     }
     div.container header form input + button i {
-        color: #fff;
+        color:#fff;
     }
     div.container header form input + button {
         border: thin solid rgba(255, 255, 255,0.2);
