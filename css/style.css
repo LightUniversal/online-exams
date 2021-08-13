@@ -50,7 +50,6 @@ div.container header div.right-side {
     right: 5.5%;
     top: 20px;
 }
-
 div.container header div.right-side button {
     background-color: transparent;
     padding: 10px 15px;
@@ -323,11 +322,15 @@ main div.main-des section form input[value="Submit"] {
     }
     div.container header h3 {
         padding-top: 10px;
+        text-transform: none;
     }
     div.container header nav ol {
         position: absolute;
-        right: 0;
+        right: 5%;
         top: 90px;
+    }
+    div.container header nav ol li {
+        margin: 3px;
     }
     div.container header nav  ul li {
         display: block;
@@ -335,9 +338,12 @@ main div.main-des section form input[value="Submit"] {
     }
     div.container header div.right-side {
         right:7%;
+        top: 27px;
+    }
+    div.container header div.right-side button{
+        padding: 5px 10px;
     }
     div.container header form {
-       
         padding: 0.5%;
     }
     div.container header form input[type="search"] {
